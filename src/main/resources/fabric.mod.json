@@ -6,12 +6,13 @@
   "name": "Curse Silence",
   "description": "Removes curse information from tooltips",
   "authors": [
-    "ZestyBlaze"
+    "ZestyBlaze",
+    "TeamCitrusMods"
   ],
   "contact": {
-    "homepage": "",
-    "sources": "",
-    "issues": ""
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/curse-silence-recursed",
+    "sources": "https://github.com/TeamCitrusMods/Curse-Silence",
+    "issues": "https://github.com/TeamCitrusMods/Curse-Silence/issues"
   },
 
   "license": "MIT License",
