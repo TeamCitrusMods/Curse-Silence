@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.zestyblaze.cursesilence.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "EnchantedBookTooltip",
+    "EnchantmentHider",
+    "GlintHider"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

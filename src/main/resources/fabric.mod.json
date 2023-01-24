@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "cursesilence",
+  "version": "${version}",
+
+  "name": "Curse Silence",
+  "description": "Removes curse information from tooltips",
+  "authors": [
+    "ZestyBlaze"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "",
+    "issues": ""
+  },
+
+  "license": "MIT License",
+  "icon": "assets/cursesilence/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.zestyblaze.cursesilence.CurseSilence"
+    ]
+  },
+  "mixins": [
+    "cursesilence.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.2",
+    "java": ">=17"
+  }
+}
